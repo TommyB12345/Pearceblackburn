@@ -28,12 +28,12 @@
 
 #logo {
 	overflow: hidden;
-	height: 5.2em;
+	height: 5.0em;
 }
 
 #logo h1 a {
 	float: left;
-	padding: 0.0em 0.4em 0.4em 0em; /* topem, rightem, bottomem, leftem */
+	padding: 0.0em 4.0em 0.4em 0em; /* topem, rightem, bottomem, leftem */
 	text-decoration: none;
 	text-transform: none;
 	font-family: 'Oswald', sans-serif;
