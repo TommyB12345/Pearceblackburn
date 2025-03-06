@@ -9,6 +9,29 @@
 /* Desktop (>= 480px)                                                            */
 /*********************************************************************************/
 
+/* Default styles for larger screens */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 10px;
+    }
+}
+
+/* Mobile devices (480px and below) */
+@media screen and (max-width: 480px) {
+    .col {
+        width: 100%; /* Full width columns */
+        text-align: center;
+    }
+}
 /* Header */
 
 #header-wrapper {
