@@ -33,7 +33,7 @@
 
 #logo h1 a {
 	float: left;
-	padding: 0.4em .18em 0.4em 0em; /* topem, rightem, bottomem, leftem */
+	padding: 0.4em .18em 0em 0em; /* topem, rightem, bottomem, leftem */
 	width: 100;
 	text-decoration: none;
 	text-transform: none;
