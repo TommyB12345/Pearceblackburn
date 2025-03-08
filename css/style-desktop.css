@@ -14,6 +14,7 @@
 #header-wrapper {
 	min-height: 5.2em;
 	background: url(images/img02.jpg) repeat;
+	position: relative;
 	margin-top: 0;
     padding-top: 0;
 	
@@ -109,17 +110,16 @@
 /* Wrapper */
 
 #wrapper {
-	
+	overflow: hidden;
 	margin-bottom: 5em;
 	padding: 6em 0em 3em 0em;
 	background: #FFFFFF;
-	position: relative;
 }
 
 /* Page Wrapper */
 
 #page-wrapper {
-	
+	overflow: hidden;
 }
 
 /* Banner */

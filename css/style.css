@@ -80,19 +80,7 @@ strong {
         max-width: 80%; /* Make images smaller on mobile */
     }
 }
-@media (max-width: 768px) {
-    #menu {
-        display: none; /* Hide desktop menu */
-    }
 
-    #mobile-menu {
-        display: block; /* Show mobile menu */
-        background: #333;
-        color: white;
-        padding: 10px;
-        text-align: center;
-    }
-}
 /* Copyright */
 
 #copyright {

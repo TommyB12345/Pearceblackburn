@@ -155,6 +155,7 @@
 										  emailjs.sendForm("service_8hpgl09", "template_uvnnt0d", event.target)
 										  .then(() => {
 											  alert("Message sent successfully!");
+											  event.target.reset();
 										  }, (error) => {
 											  alert("Failed to send message: " + JSON.stringify(error));
 										  });
