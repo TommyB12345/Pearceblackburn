@@ -42,15 +42,17 @@
 	
 	height: 5.2em;
 	
+	
 }
 
 #logo h1 a {
 	float: left;
-	padding: .4em 0em; /* topem, rightem, bottomem, leftem */
+	padding: .4em 0em .4em 0em; /* topem, rightem, bottomem, leftem */
+	width: 5000px;
 	text-decoration: none;
 	text-transform: none;
 	font-family: 'Oswald', sans-serif;
-	font-size: 2.4em;
+	font-size: 2.35em;
 	font-weight: bold;
 	color: #0a0a0a;
 }
@@ -333,10 +335,10 @@
 #bio h1 {
 	
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 50px;
 }
 #bio p {
-	font-size: 20px;
+	font-size: 30px;
 	line-height: 1.6;
 	text-align: left;
 }
