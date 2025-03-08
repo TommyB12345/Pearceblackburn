@@ -60,7 +60,25 @@ strong {
     overflow-wrap: break-word;
 
 }
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        background: #fff; /* Change background for mobile */
+    }
 
+    #menu ul {
+        display: block; /* Stack menu items vertically */
+        text-align: center;
+    }
+
+    #content {
+        padding: 10px;
+    }
+
+    #bio img {
+        max-width: 80%; /* Make images smaller on mobile */
+    }
+}
 /* Copyright */
 
 #copyright {
