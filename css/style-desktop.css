@@ -48,7 +48,6 @@
 #logo h1 a {
 	float: left;
 	padding: .4em 0em .4em 0em; /* topem, rightem, bottomem, leftem */
-	
 	text-decoration: none;
 	text-transform: none;
 	font-family: 'Oswald', sans-serif;
@@ -335,9 +334,10 @@
 #bio h1 {
 	
 	font-weight: bold;
+	font-size: 30px;
 }
 #bio p {
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 1.6;
 	text-align: left;
 }
