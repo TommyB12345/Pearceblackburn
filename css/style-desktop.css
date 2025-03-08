@@ -39,19 +39,20 @@
 /* Logo */
 
 #logo {
-	overflow: hidden;
+	
 	height: 5.2em;
+	
 	
 }
 
 #logo h1 a {
 	float: left;
 	padding: 10px; /* topem, rightem, bottomem, leftem */
-	width: 500px;
+	width: 5000px;
 	text-decoration: none;
 	text-transform: none;
 	font-family: 'Oswald', sans-serif;
-	font-size: 2.35em;
+	font-size: 3em;
 	font-weight: bold;
 	color: #0a0a0a;
 }
