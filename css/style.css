@@ -13,12 +13,13 @@
 /*********************************************************************************/
 
 html, body {
+	overflow-x: hidden;
+	overflow-y: auto;
 	height: 100%;
 	width: 100%;
 }
 
 body {
-	overflow-x: hidden;
 	margin: 0em;
 	padding: 0em;
 	width: 100%;
