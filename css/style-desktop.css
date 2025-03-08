@@ -48,7 +48,7 @@
 #logo h1 a {
 	float: left;
 	padding: .4em 0em .4em 0em; /* topem, rightem, bottomem, leftem */
-	width: 5000px;
+	width: 1000px;
 	text-decoration: none;
 	text-transform: none;
 	font-family: 'Oswald', sans-serif;
