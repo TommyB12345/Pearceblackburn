@@ -49,7 +49,7 @@
 #logo h1 a {
 	float: left;
 	padding: .4em 0em .4em 0em; /* topem, rightem, bottomem, leftem */
-	width: 1000px;
+	width: auot;
 	text-decoration: none;
 	text-transform: none;
 	font-family: 'Oswald', sans-serif;
@@ -100,7 +100,7 @@
 #menu .current_page_item a {
 	background: #212121;
 	color: #FFFFFF;
-	box-shadow: inset 0px -15px 10px 0px rgba(0,0,0,0.25);
+	box-shadow: inset 0px -15spx 10px 0px rgba(0,0,0,0.25);
 }
 
 #menu a:hover {
@@ -253,6 +253,7 @@
 
 #marketing {
 	overflow: hidden;
+	
 }
 
 #marketing .divider {
