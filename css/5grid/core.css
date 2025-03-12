@@ -2,10 +2,6 @@
 /* 5grid 0.3.2 by n33.co | MIT+GPLv2 license licensed            */
 /* core.css: Core stylesheet                                     */
 /*****************************************************************/
-
-/**************************************************/
-/* Resets (by meyerweb.com/eric/tools/css/reset/) */
-/**************************************************/
 	.\35 grid-layout {
 	width: 1200px;
 	margin: 0 auto;
@@ -18,17 +14,17 @@
 			height: auto;
 			float: none;
 			
-			
 		}
 		.\35 grid-layout{
 			
 			max-width: 100%;
 		}
-		.\33 u, section, .sbox2, .style1 {
+		.\33 u, section, p, .sbox2, .sbox1, .sbox.style1 , .style2,#content.\38 u, #content.\39 u, #sidebar2.\33 u {
 			
 			width: fit-content;
 			overflow-wrap: break-word;
 			overflow: auto;
+			
 		}
 		html, body, .wrapper,#sidebar3, img, .h2,.wrapper2, li, span, applet, object, iframe, a, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 			margin: 0;
@@ -43,10 +39,11 @@
         	line-height: 1.5; /* Increase spacing */
 		}
 		
-		article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav {
-			overflow: auto;
-			width: auto;
+		article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, #logo.4u{
+			overflow: hidden;
+			width: 100%;
 			max-width: 100%;
+			height: 5.2em;
 		}
 	}
 	
