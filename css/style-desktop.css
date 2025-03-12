@@ -49,7 +49,7 @@
 #logo h1 a {
 	float: left;
 	padding: .4em 0em .4em 0em; /* topem, rightem, bottomem, leftem */
-	width: auot;
+	width: auto;
 	text-decoration: none;
 	text-transform: none;
 	font-family: 'Oswald', sans-serif;
@@ -181,6 +181,8 @@
 /* Sidebar1 */
 
 #sidebar1 {
+	
+	
 }
 
 #sidebar1 h2 {
@@ -188,6 +190,7 @@
 	text-transform: none;
 	font-size: 2em;
 	color: #2A2A2A;
+	
 }
 
 /* Sidebar2 */
