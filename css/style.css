@@ -61,25 +61,6 @@ strong {
 
 }
 /*Mobile*/
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-        background: #fff; /* Change background for mobile */
-    }
-
-    #menu ul {
-        display: block; /* Stack menu items vertically */
-        text-align: center;
-    }
-
-    #content {
-        padding: 10px;
-    }
-
-    #bio img {
-        max-width: 80%; /* Make images smaller on mobile */
-    }
-}
 
 /* Copyright */
 
@@ -149,10 +130,13 @@ ul.style1 {
 ul.style1 li {
 	padding: 0.94em 0em;
 	border-top: 1px solid #E6E6E6;
+	
 }
 
 ul.style1 a {
 	display: block;
+	width: auto;
+	word-wrap: break-word;
 	padding: 0em 0em 0em 1.87em;
 	background: url(images/img10.png) no-repeat left top;
 	text-decoration: none;

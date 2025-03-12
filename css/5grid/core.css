@@ -10,6 +10,7 @@
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0 px;
+	
 	}
 	@media screen and (max-width: 1200px) {
 		{
@@ -23,26 +24,26 @@
 			
 			max-width: 100%;
 		}
-		.\33 u, section, #sidebar3,.sbox2{
-			font-size: 80%;
-			width: auto:
+		.\33 u, section, .sbox2, .style1 {
 			
+			width: fit-content;
+			overflow-wrap: break-word;
+			overflow: auto;
 		}
-		html, body, .wrapper, .sbox2, img, .h2,.wrapper2, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		html, body, .wrapper,#sidebar3, img, .h2,.wrapper2, li, span, applet, object, iframe, a, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 			margin: 0;
 			padding: 0;
 			border: 0;
-			font-size: 100%;
 			height: auto;
 			font: inherit;
 			vertical-align: baseline;
 			word-wrap: break-word;
 			overflow-wrap: break-word;
 			font-size: 80%;
-        	 /* Increase spacing */
+        	line-height: 1.5; /* Increase spacing */
 		}
 		
-		article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, .h2, .sbox2, .style1, .sidebar3{
+		article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav {
 			overflow: auto;
 			width: auto;
 			max-width: 100%;
