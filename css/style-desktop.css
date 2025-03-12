@@ -321,9 +321,9 @@
 #bio {
 	margin: 0;
 	padding: 0;
-	font-family: Arial, sans-serif;
-	background-color: #FAF3E0;
-	color: #333;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #7D7D7D;
+	
 	text-align: center;
 	
 }
@@ -338,7 +338,7 @@
 }
 
 #bio h1 {
-	
+	color: #333;
 	font-weight: bold;
 	font-size: 50px;
 }
@@ -346,4 +346,11 @@
 	font-size: 30px;
 	line-height: 1.6;
 	text-align: left;
+}
+#bio img{
+	padding-bottom: 0%;
+	width: auto;
+	height: auto;
+    border: 5px solid #333; /* Border color */
+   
 }
