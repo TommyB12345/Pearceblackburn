@@ -16,8 +16,9 @@
 			
 		}
 		.\35 grid-layout{
-			
 			max-width: 100%;
+			position: relative;
+			
 		}
 		.\34u, .row.divider{
 			width: fit-content;
@@ -30,7 +31,7 @@
 			height: auto;
 			
 		}
-		html, body, .wrapper,#sidebar3, img, .h2,.wrapper2, li, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, summary, time, mark, audio, video {
+		html, body, .wrapper,#sidebar3, img, .h2,.wrapper2, li, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, hgroup, menu, nav, output, ruby, summary, time, mark, audio, video {
 			margin: 0;
 			padding: 0;
 			border: 0;
@@ -42,8 +43,16 @@
 			font-size: 80%;
         	line-height: 1.5; /* Increase spacing */
 		}
+		.homepage, #sidebar2.\33 u {
+			padding: 5em;
+			
+		}
+		#header {
 		
-		article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, #logo.4u{
+		
+		}
+
+		article, aside, details, figcaption, figure, footer, hgroup, menu, nav, #logo.4u {
 			overflow: hidden;
 			width: 100%;
 			max-width: 100%;
