@@ -27,7 +27,7 @@
 	
 	background: url(images/img02.jpg) repeat;
 	background-size: cover;
-	background-attachment: auto;
+	background-attachment: fixed;
 	width: 100%;
 	height: 5.2em;
 	position: fixed;
@@ -178,7 +178,11 @@
 #content .post {
 	padding: 0em 0em 2.5em 0em;
 }
-
+.main-office-title {
+    text-transform: none;
+	font-size: 2em;
+	color: #2A2A2A;
+}
 /* Sidebar1 */
 
 #sidebar1 {

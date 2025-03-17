@@ -23,7 +23,7 @@
 		.\34u, .row.divider{
 			width: fit-content;
 		}
-		.\33 u, section, a, .sbox2, .sbox1, .sbox.style1 , .style2,#content.\38 u, #content.\39 u, #sidebar2.\33 u{
+		.\33 u, section, a, .sbox2, .sbox1, .sbox.style1 , .style2,#content.\38 u, #content.\39 u{
 			
 			width: fit-content;
 			overflow-wrap: break-word;
@@ -31,7 +31,7 @@
 			height: auto;
 			
 		}
-		html, body, .wrapper,#sidebar3, img, .h2,.wrapper2, li, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, hgroup, menu, nav, output, ruby, summary, time, mark, audio, video {
+		html, body, #page,.wrapper,#sidebar3, .h2,.wrapper2, li, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, hgroup, menu, nav, output, ruby, summary, time, mark, audio, video {
 			margin: 0;
 			padding: 0;
 			border: 0;
@@ -43,22 +43,26 @@
 			font-size: 80%;
         	line-height: 1.5; /* Increase spacing */
 		}
-		.homepage, #sidebar2.\33 u {
-			padding: 5em;
+		#page, #wrapper, #marketing, #footer-content.row{
+			padding-left: 5em;
+			padding-right: 5em;
+		}
+		#sidebar2.\33 u{
+			padding-left: 5em;
+			padding-right: 5em;
+			width: fit-content;
+			overflow-wrap: break-word;
+			overflow: auto;
+			height: auto;
+		}
+		#banner.\31 2u, .container{
+			padding: 0em, 1em, 0em;
 			
 		}
-		#header {
-		
-		
+		#header{
+			z-index: 9999;
 		}
 
-		article, aside, details, figcaption, figure, footer, hgroup, menu, nav, #logo.4u {
-			overflow: hidden;
-			width: 100%;
-			max-width: 100%;
-			height: 5.2em;
-			font-size: 80%
-		}
 	}
 	
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
