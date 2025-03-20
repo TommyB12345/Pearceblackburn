@@ -48,7 +48,7 @@
 
 #logo h1 a {
 	float: left;
-	padding: .4em 0em .4em 0em; /* topem, rightem, bottomem, leftem */
+	 /* topem, rightem, bottomem, leftem */
 	width: auto;
 	text-decoration: none;
 	text-transform: none;

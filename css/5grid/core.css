@@ -55,6 +55,9 @@
 			overflow: auto;
 			height: auto;
 		}
+		#logo h1 a{
+			padding-left: 2em;
+		}
 		#banner.\31 2u, .container{
 			padding: 0em, 1em, 0em;
 			
