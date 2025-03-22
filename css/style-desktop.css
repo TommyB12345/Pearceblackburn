@@ -178,6 +178,10 @@
 #content .post {
 	padding: 0em 0em 2.5em 0em;
 }
+#content .stable img{
+	width: 100%;
+	height: auto;
+}
 .main-office-title {
     text-transform: none;
 	font-size: 2em;

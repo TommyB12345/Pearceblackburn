@@ -23,7 +23,7 @@
 		.\34u, .row.divider{
 			width: fit-content;
 		}
-		.\33 u, section, a, .sbox2, .sbox1, .sbox.style1 , .style2, #content.\38 u, #content.\39 u{
+		.\33 u, section, a, .sbox2, .sbox1, .sbox.style1 , .style2, #content.\39 u, .post{
 			
 			width: fit-content;
 			overflow-wrap: break-word;
@@ -55,6 +55,7 @@
 			overflow: auto;
 			height: auto;
 		}
+		
 		#logo h1 a{
 			padding-left: 2em;
 		}
@@ -120,6 +121,7 @@
 	.\35 grid .\31 u, .\35 grid .\32 u, .\35 grid .\33 u, .\35 grid .\34 u, .\35 grid .\35 u, .\35 grid .\36 u, .\35 grid .\37 u, .\35 grid .\38 u, .\35 grid .\39 u, .\35 grid .\31 0u, .\35 grid .\31 1u, .\35 grid .\31 2u {
 		margin: 1% 0 1% 2%;
 		float: left;
+		
 	}
 
 	.\35 grid:after {
@@ -174,6 +176,7 @@
 .\35 grid-layout .\31 u, .\35 grid-layout .\32 u, .\35 grid-layout .\33 u, .\35 grid-layout .\34 u, .\35 grid-layout .\35 u, .\35 grid-layout .\36 u, .\35 grid-layout .\37 u, .\35 grid-layout .\38 u, .\35 grid-layout .\39 u, .\35 grid-layout .\31 0u, .\35 grid-layout .\31 1u, .\35 grid-layout .\31 2u {
 	margin: 1% 0 1% 2%;
 	float: left;
+	
 }
 
 .\35 grid-layout:after {
