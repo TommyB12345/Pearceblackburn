@@ -23,7 +23,7 @@
 		.\34u, .row.divider{
 			width: fit-content;
 		}
-		.\33 u, section, a, .sbox2, .sbox1, .sbox.style1 , .style2, #content.\39 u, .post{
+		.\33 u, section, a, .sbox2, .sbox1, .sbox.style1 , .style2, #content.\39 u{
 			
 			width: fit-content;
 			overflow-wrap: break-word;
