@@ -47,128 +47,116 @@
 					<section>
 						<div class="post">
 							<h2>Request a Quote</h2>
-							<p>&nbsp;</p>
-                            
-							<table width="764" border="0" cellspacing="6" cellpadding="2">
-							  <tr>
-							    <td width="273">First Name:						        </td>
-							    <td colspan="2">Last Name:						        </td>
-						      </tr>
-							  <tr><form id="sendemail" onsubmit="sendEmail(event)">
-							    <td><input type="text" name="name" id="name" style="width:250px; height:35px;"required></td>
-							    <td colspan="2"><input type="text" name="lastname" id="lastname" style="width:250px; height:35px;"required></td>
-						      
-							  <tr>
-							    <td>&nbsp;</td>
-							    <td colspan="2">&nbsp;</td>
-						      </tr>
-							  <tr>
-							    <td>Company Name: (required)</td>
-							    <td colspan="2">&nbsp;</td>
-						      </tr>
-							  <tr>
-							    <td colspan="3"><input type="text" name="company" id="company" value="" style="width:350px; height:35px;"required></td>
-						      </tr>
-							  <tr>
-							    <td>&nbsp;</td>
-							    <td colspan="2">&nbsp;</td>
-						      </tr>
-							  <tr>
-							    <td>Address: </td>
-							    <td>City: </td>
-							    <td>State:</td>
-						      </tr>
-							  <tr>
-							    <td><input type="text" name="address" id="address" value="" style="width:250px; height:35px;"required></td>
-							    <td width="274"><input type="text" name="city" id="city" value="" style="width:250px; height:35px;"required></td>
-							    <td width="177"><input type="text" name="state" id="state" value="" style="width:135px; height:35px;"required></td>
-						      </tr>
-							  <tr>
-							    <td>&nbsp;</td>
-							    <td colspan="2">&nbsp;</td>
-						      </tr>
-							  <tr>
-							    <td>Zip Code:</td>
-							    <td>Phone:</td>
-							    <td>Service Needed:</td>
-						      </tr>
-							  <tr>
-							    <td><input type="text" name="zip" id="zip" value="" style="width:250px; height:35px;"required></td>
-							    <td><input type="text" name="phone" id="phone" value="" style="width:250px; height:35px;"required></td>
-							    <td><select name="service"required>
-							      <option value="service">Leak Service Quote</option>
-							      <option value="new-roof">New Roof Quote</option>
-							      <option value="coating">Coating Quote</option>
-							      <option value="other">Other</option>
-						        </select></td>
-						      </tr>
-							  <tr>
-							    <td>&nbsp;</td>
-							    <td colspan="2">&nbsp;</td>
-						      </tr>
-							  <tr>
-							    <td>Email:</td>
-							    <td>Verify Email:</td>
-							    <td>How did you hear about us?</td>
-						      </tr>
-							  <tr>
-							    <td><input type="text" name="email" id="email" value="" style="width:250px; height:35px;" required></td>
-							    <td><input type="text" name="email2" id="email2" value="" style="width:250px; height:35px;"required></td>
-							    <td><select name="aboutus"required>
-							      <option value="online">Online</option>
-							      <option value="another-business">Another Business</option>
-							      <option value="sales-team">Sales Team</option>
-							      <option value="advertisement">Advertisement</option>
-								  <option value="other">Other</option>
-						        </select></td>
-						      </tr>
-							  <tr>
-							    <td>&nbsp;</td>
-							    <td>&nbsp;</td>
-							    <td>&nbsp;</td>
-						      </tr>
-							  <tr>
-							    <td>Additional Information/Message</td>
-							    <td>&nbsp;</td>
-							    <td>&nbsp;</td>
-						      </tr>
-							  <tr>
-							    <td colspan="3"><textarea id="message" name="message" rows="8" cols="100"></textarea ></td>
-						      </tr>
-							  <tr>
-							    <td colspan="2">&nbsp;</td>
-							    <td>&nbsp;</td>
-						      </tr>
-							  <tr>
-							    <td colspan="2"><span class="button-style2">
-                                <div class="g-recaptcha" data-sitekey="6LcrmJ8UAAAAALaKMZAdt7fQi7Qj3aIkzr6re4r3"></div>
-							      <input type="submit" value="Submit Form!">
-								  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-								  <script>
-									  (function() {
-										  emailjs.init("vh1wfoEFUnJw2rt8Y");  // Replace with your EmailJS public key
-									  })();
-								  
-									  function sendEmail(event) {
-										  event.preventDefault(); // Prevent page reload
-								  
-										  emailjs.sendForm("service_8hpgl09", "template_uvnnt0d", event.target)
-										  .then(() => {
-											  alert("Message sent successfully!");
-											  event.target.reset();
-										  }, (error) => {
-											  alert("Failed to send message: " + JSON.stringify(error));
-										  });
-									  }
-								  </script>
-								  
-                             
-                                  </form>
-                                  
-							    </td>
-							    <td><p class="button-style2">&nbsp;</p></td>
-						      </tr>
-						  </table>
+
+							<form id="sendemail" onsubmit="sendEmail(event)">
+  								<table width="764" border="0" cellspacing="6" cellpadding="2">
+    								<tr>
+      									<td width="273"><label for="name">First Name:</label></td>
+      									<td colspan="2"><label for="lastname">Last Name:</label></td>
+    								</tr>
+    								<tr>
+										<td><input type="text" name="name" id="name" style="width:250px; height:35px;" required></td>
+										<td colspan="2"><input type="text" name="lastname" id="lastname" style="width:250px; height:35px;" required></td>
+										</tr>
+
+										<tr><td>Company Name: (required)</td><td colspan="2"></td></tr>
+										<tr>
+										<td colspan="3"><input type="text" name="company" id="company" style="width:350px; height:35px;" required></td>
+										</tr>
+
+										<tr>
+										<td>Address:</td>
+										<td>City:</td>
+										<td>State:</td>
+										</tr>
+										<tr>
+										<td><input type="text" name="address" id="address" style="width:250px; height:35px;" required></td>
+										<td><input type="text" name="city" id="city" style="width:250px; height:35px;" required></td>
+										<td><input type="text" name="state" id="state" style="width:135px; height:35px;" required></td>
+										</tr>
+
+										<tr>
+										<td>Zip Code:</td>
+										<td>Phone:</td>
+										<td>Service Needed:</td>
+										</tr>
+										<tr>
+										<td><input type="text" name="zip" id="zip" style="width:250px; height:35px;" required></td>
+										<td><input type="text" name="phone" id="phone" style="width:250px; height:35px;" required></td>
+										<td>
+											<select name="service" required>
+											<option value="service">Leak Service Quote</option>
+											<option value="new-roof">New Roof Quote</option>
+											<option value="coating">Coating Quote</option>
+											<option value="other">Other</option>
+											</select>
+										</td>
+										</tr>
+
+										<tr>
+										<td>Email:</td>
+										<td>Verify Email:</td>
+										<td>How did you hear about us?</td>
+										</tr>
+										<tr>
+										<td><input type="email" name="email" id="email" style="width:250px; height:35px;" required></td>
+										<td><input type="email" name="email2" id="email2" style="width:250px; height:35px;" required></td>
+										<td>
+											<select name="aboutus" required>
+											<option value="online">Online</option>
+											<option value="another-business">Another Business</option>
+											<option value="sales-team">Sales Team</option>
+											<option value="advertisement">Advertisement</option>
+											<option value="other">Other</option>
+											</select>
+										</td>
+										</tr>
+
+										<tr>
+										<td>Additional Information/Message</td>
+										<td colspan="2"></td>
+										</tr>
+										<tr>
+										<td colspan="3"><textarea id="message" name="message" rows="8" cols="100"></textarea></td>
+										</tr>
+
+										<tr>
+										<td colspan="3">
+											<div class="g-recaptcha" data-sitekey="6LcrmJ8UAAAAALaKMZAdt7fQi7Qj3aIkzr6re4r3"></div>
+											<input type="submit" value="Submit Form!">
+										</td>
+										</tr>
+									</table>
+									</form>
+
+									<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+									<script>
+									(function() {
+										emailjs.init("vh1wfoEFUnJw2rt8Y"); // Replace with your EmailJS public key
+									})();
+
+									function sendEmail(event) {
+									event.preventDefault();
+
+									// Send the main email to your company
+									emailjs.sendForm("service_8hpgl09", "template_request", event.target)
+										.then(() => {
+										alert("Message sent successfully!");
+
+										// Send auto-reply to user
+										const formData = new FormData(event.target);
+										emailjs.send("service_8hpgl09", "template_autoreply", {
+											to_name: formData.get("name"),
+											to_email: formData.get("email"),
+											service: formData.get("service"),
+										});
+
+										event.target.reset();
+										}, (error) => {
+										alert("Failed to send message: " + JSON.stringify(error));
+										});
+									}
+</script>
 							<p>&nbsp;</p>
 							<p>At Pearce-Blackburn Roofing, customer service is what we pride ourselves on.  We want to be available to meet your service needs whether it is a leak or time to replace an aged roof.  Someone at Pearce-Blackburn will respond to your request within 24 business hours.</p>
 							<p>&nbsp;</p>
